@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        *{
+    padding: 5px;
+}
+.form{
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+input[type="text"],
+input[type="email"]
+{
+    width: 99%;
+    padding: 5,5;
+}
+input[type="file"]
+{
+    background-color: rgb(201, 216, 170);
+    padding: 5px;
+    width: 10;
+    height: 10;
+    cursor: pointer;
+}
+input[type="radio"]
+{
+    cursor: pointer;
+}
+input[type="reset"]
+{
+ width: 100%;
+background-color: rgb(187, 230, 124);
+border-radius: 10px;
+margin: 5px;
+cursor: pointer;
+}
+input[type="submit"]
+{
+width: 100%;
+background-color: rgb(187, 230, 124);
+border-radius: 10px;
+margin: 5px;
+cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <div class="form">
+        <form action="#" method="get">
+            <fieldset>
+            <legend>Personal_information</legend>
+            <p>Name:<input type="text" placeholder="Name" required></p>
+            <p>Fathen Name:<input type="text" placeholder="Father Name" required ></p>
+            <p>Enter Date of Birth: <br> <input type="date" name="bod" id="bod"></p>
+            <fieldset>
+                <legend>Gender</legend>
+              <p>
+                Male<input type="radio" name="gender" id="mala"required>
+               Female<input type="radio" name="gender" id="Female"required>
+              </p></fieldset>
+              <p>Enter your CNIC Number: <br><input type="text" name=" CNIC" id="CNIC" required placeholder="Your CNIC Number"></p>
+              <p>Enter your Father CNIC Number: <br><input type="text" name=" CNIC" id="CNIC" required placeholder="Father CNIC Number"></p>
+              <p>Email:<input type="email" name="Email" id="Email"required placeholder="abc123@gmail.com"></p>
+              <p>Phone number:<input type="text" placeholder="03XX-XXXXXXX"required></p>
+              <p>Enter your Address: <br> <textarea name="" id="" cols="99" rows="10" required></textarea> </p>
+             
+              <p>Uplode Your Image:<br><input type="file" name="Image " id=""required></p>
+              <p><input type="reset" value="Reload"> <br> <input type="submit" value="DONE">
+            
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>
+</body>
+</html>
